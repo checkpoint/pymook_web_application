@@ -1,0 +1,4 @@
+SQLAlchemy==0.9.9
+WTForms==2.0.2
+bottle==0.12.8
+bottle-sqlalchemy==0.4.2
