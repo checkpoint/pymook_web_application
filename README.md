@@ -10,7 +10,7 @@
 ```
 ├─ book
 │ ├─ app.py(アプリケーション本体)
-│ ├─ views(テンプレートを配置するディレクトリ) 
+│ ├─ views(テンプレートを配置するディレクトリ)
 │ ├─ base.tpl
 │ ├─ edit.tpl
 │ ├─ footer.tpl
@@ -21,10 +21,7 @@
 ## インストール
 
 ```
-pip install bottle==0.12.8
-pip install sqlalchemy==0.9.9
-pip install bottle-sqlalchem
-pip install WTForms==2.0.2
+pip install -r requirements.txt
 ```
 
 ## 起動
