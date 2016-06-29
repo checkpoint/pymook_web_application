@@ -60,6 +60,9 @@ class BookForm(Form):
         validators.required(message=u"入力してください")
     ])
 
+@get('/')
+def top(db):
+    redirect("/books")
 
 @get('/books')
 def index(db):
